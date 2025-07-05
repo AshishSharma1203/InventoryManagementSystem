@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    height: 100vh;
+    padding: 0 10%;
+    background: #0d1b2a;
+    color: #ffffff;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .flex-container > * {
+    flex: 1 1 45%;
+    min-width: 300px;
+    box-sizing: border-box;
+  }
